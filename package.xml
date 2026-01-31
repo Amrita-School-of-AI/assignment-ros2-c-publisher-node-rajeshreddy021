@@ -3,7 +3,7 @@
 <package format="3">
   <name>ros2_publisher</name>
   <version>0.0.0</version>
-  <description>ROS 2 C++ publisher node that publishes a counter message</description>
+  <description>ROS 2 C++ Publisher Node</description>
 
   <maintainer email="rajeshkumarreddykasireddy5@gmail.com">
     kasireddy-rajesh-kumar
@@ -11,14 +11,11 @@
 
   <license>Apache-2.0</license>
 
-  <!-- Build system -->
   <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <!-- Runtime dependencies -->
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
 
-  <!-- Testing dependencies -->
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
 
